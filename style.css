@@ -1,5 +1,5 @@
 * {
-  font-family: "Times New Roman", Times, serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 h1 {
@@ -10,14 +10,26 @@ h1 {
 ul {
   text-align: right;
   width: 100%;
+  height: 25px;
+  font-weight: bold;
   background-color: azure;
-  border: 10px solid darkblue;
+  border-bottom: 5px solid darkblue;
   position: fixed;
   top: 0;
   right: 0;
+  font-size: large;
+  margin: 0;
 }
 
 li {
   display: inline;
   list-style-type: none;
+}
+
+img {
+  border: 5px solid gold;
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
